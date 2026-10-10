@@ -1,0 +1,21 @@
+# Scripts de restablecimiento y pruebas locales (No versionar para producción)
+reset_database.sql
+*reset*.sql
+*test*.sql
+
+# Backups y volcados de base de datos
+*.dump
+*.backup
+*.sql.bak
+*.sql.gz
+*.tar
+backup/
+dumps/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
